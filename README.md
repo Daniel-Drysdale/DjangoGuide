@@ -1,5 +1,5 @@
-# Guide to making new views, linking them to URLS, and working on models (DB)
-Guide on Django Workflow for the SSE Project
+# <ins>A Guide to making new view functions </ins>
+This a a guide on Django Workflow for the SSE Project, it contains a basic Django workflow for this project.
 
 
 
@@ -9,7 +9,7 @@ Guide on Django Workflow for the SSE Project
 
 <img width="398" alt="Screenshot 2025-04-07 at 10 48 56 AM" src="https://github.com/user-attachments/assets/2b2618f3-5601-4120-811c-f3197321bfa0" />
 
-#### user_services:
+####  <ins>user_services: <ins/>
 ##### All functions in this file are related to user services, such as:
 - Creating new user accounts
 - Emailing Users (notifications pushed to users about monitoring)
