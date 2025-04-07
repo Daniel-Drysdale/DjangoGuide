@@ -17,7 +17,7 @@ This a a guide on Django Workflow for the SSE Project, it contains a basic Djang
 - Editing a User's details (Optional)
 
 
-#### _monitoring_services:_
+####  <ins>monitoring_services: <ins/>
 ##### All functions in this file are related to monitoring services, such as:
 - The endpoint Daemon activation
 - Data collection from the daemon
@@ -26,7 +26,7 @@ This a a guide on Django Workflow for the SSE Project, it contains a basic Djang
 - Deleting an Endpoint
 
 
-#### web_services:
+####  <ins>web_services: <ins>
 ##### All functions in this file are related to web services, such as:
 - Displaying Monitoring Data to the frontend website (Frontend -> Get Request to Backend)
-- Displaying List of all VM's being monitored
+- sending a list of all VMs being monitored by a user (Frontend -> Get Request to Backend)
