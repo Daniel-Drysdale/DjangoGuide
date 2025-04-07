@@ -3,7 +3,7 @@ This a a guide on Django Workflow for the SSE Project, it contains a basic Djang
 
 
 
-# Making a new view function
+##  <ins>Making a new view function <ins/>
 
 ### Generally, you will be making a new view function in these 3 files
 
