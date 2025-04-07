@@ -17,7 +17,7 @@ Guide on Django Workflow for the SSE Project
 - Editing a User's details (Optional)
 
 
-#### monitoring_services:
+#### _monitoring_services:_
 ##### All functions in this file are related to monitoring services, such as:
 - The endpoint Daemon activation
 - Data collection from the daemon
