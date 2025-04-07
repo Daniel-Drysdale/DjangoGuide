@@ -1,2 +1,2 @@
-# Django Guide to making the views work gud
+# Django Guide to making new views, linking them to URLS, and working on models (DB)
 Guide on Django Workflow for the SSE Project
