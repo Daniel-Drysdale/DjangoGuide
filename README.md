@@ -9,17 +9,24 @@ Guide on Django Workflow for the SSE Project
 
 <img width="398" alt="Screenshot 2025-04-07 at 10 48 56 AM" src="https://github.com/user-attachments/assets/2b2618f3-5601-4120-811c-f3197321bfa0" />
 
-#### monitoring_services:
-All functions in this file are related to monitoring services, which mean related to:
-- The daemon
-- endpoint monitoring
-- email notification related to monitoring.
-
-
-
-
 #### user_services:
+##### All functions in this file are related to user services, such as:
+- Creating new user accounts
+- Emailing Users (notifications pushed to users about monitoring)
+- Deleting a User (Optional)
+- Editing a User's details (Optional)
 
+
+#### monitoring_services:
+##### All functions in this file are related to monitoring services, such as:
+- The endpoint Daemon activation
+- Data collection from the daemon
+- Endpoint monitoring
+- Editing an Endpoint
+- Deleting an Endpoint
 
 
 #### web_services:
+##### All functions in this file are related to web services, such as:
+- Displaying Monitoring Data to the frontend website (Frontend -> Get Request to Backend)
+- Displaying List of all VM's being monitored
