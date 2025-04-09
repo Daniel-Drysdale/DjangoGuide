@@ -45,12 +45,27 @@ from django.views.decorators.csrf import csrf_exempt
 import requests
 import json
 
+from components.classes import Endpoint_Data, User_Data
+from components.models import User, Endpoint
+
 @csrf_exempt
 def DummyFunction(request:requests):
       try:
           #Checking to ensure that the request is the one required for the method to function
           if request.method == #"GET", "POST", "DELETE"
-          request_body = json.loads(request.body)	 
+
+                  #If it is a POST request, this is needed to unload the POST data
+                  request_body = json.loads(request.body)
+                  request_body["Name_of_Var_in_POST_Data_Response"]
+                  response = JsonResponse({"message":"Successful POST Request}, status = 200)
+
+                  #If it is a GET, gather the data and then send it back as a response
+                  Enpoint_ID = int(request.GET.get("endpoint_id"))
+                  Endpoint_ObJ = Endpoint(user_id=User.objects.get(user_id = 12345)
+                  response = JsonResponse(Endpoint_OBJ.json(), status = 200)
+
+                  #DELETE is the same as get, but you delete an object in the DB and then send a 200 if successful
+	       
       except:
       return JsonResponse({"message":"Failed Post for New Endpoint"}, status = 405)
 ```
