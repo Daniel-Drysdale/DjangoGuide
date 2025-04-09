@@ -71,7 +71,10 @@ def DummyFunction(request:requests):
       return JsonResponse({"message":"Failed Post for New Endpoint"}, status = 405)
 ```
 
-
+####All functions which are callable by the frontend should similar the the examples, all of them should include:
+- a try catch statement to ensure the backend doesn't error out and stop runtime stuff
+- a request variable in the parameter of the function to gather the request data from the front ennd
+- a response to the request made by the front end
 
 
 
