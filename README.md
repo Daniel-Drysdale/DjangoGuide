@@ -84,12 +84,24 @@ def DummyFunction(request:requests):
 
 #### Now that you have a function ready to be called by the frontend, we need to map that function to a URL.
 
-##### To do that, we need to navigate to the admin directory
+##### To do that, we need to navigate to the admin directory:
 
 <img width="400" alt="Screenshot 2025-04-09 at 12 36 17 PM" src="https://github.com/user-attachments/assets/92a5fb57-b3e0-4422-86e0-1a96e95886b5"/>
 
 
-##### Once inside the admin directory, open the urls.py file
+##### Once inside the admin directory, open the urls.py file:
 
 <img width="400" alt="Screenshot 2025-04-09 at 12 36 22 PM" src="https://github.com/user-attachments/assets/1c4dc701-0d49-4d60-a2b2-d47220beea85"/>
+
+##### In the urls.py file, you will see a list of URLS and functions:
+
+<img width="836" alt="Screenshot 2025-04-09 at 12 37 43 PM" src="https://github.com/user-attachments/assets/9b36db34-6cf9-4358-999b-784e8182c1e4" />
+
+##### To map a function to a URL, add a URL using the following syntax:
+
+```python 
+path('v2/api/Name-of-Endpoint/', Name_of_Service_File.Name_of_Function)
+
+```
+
 
