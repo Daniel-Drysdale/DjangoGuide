@@ -91,5 +91,5 @@ def DummyFunction(request:requests):
 
 ##### Once inside the admin directory, open the urls.py file
 
-<img width="401" alt="Screenshot 2025-04-09 at 12 36 22 PM" src="https://github.com/user-attachments/assets/1c4dc701-0d49-4d60-a2b2-d47220beea85" />
+<img width="400" alt="Screenshot 2025-04-09 at 12 36 22 PM" src="https://github.com/user-attachments/assets/1c4dc701-0d49-4d60-a2b2-d47220beea85"/>
 
