@@ -79,7 +79,7 @@ def DummyFunction(request:requests):
 
 
 
-##  <ins>Linking a Function to a URL<ins/>![Uploading Screenshot 2025-04-09 at 12.37.43 PM.png…]()
+##  <ins>Linking a Function to a URL<ins/>
 
 
 #### Now that you have a function ready to be called by the frontend, we need to map that function to a URL.
