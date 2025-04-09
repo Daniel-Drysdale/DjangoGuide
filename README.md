@@ -39,6 +39,7 @@ This a guide on Django Workflow for the SSE Project, it contains a basic Django 
 
 
 ```python
+#These are generally the imports you will be using
 from django.http import HttpResponse
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
