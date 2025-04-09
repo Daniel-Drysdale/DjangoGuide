@@ -79,11 +79,17 @@ def DummyFunction(request:requests):
 
 
 
-##  <ins>Linking a Function to a URL<ins/>
+##  <ins>Linking a View Function to a URL<ins/>
 
 
 #### Now that you have a function ready to be called by the frontend, we need to map that function to a URL.
 
-##### To that, we need to navigate to the <b>admin<b/> directory
+##### To do that, we need to navigate to the admin directory
 
-<img width="400" alt="Screenshot 2025-04-09 at 12 36 17 PM" src="https://github.com/user-attachments/assets/92a5fb57-b3e0-4422-86e0-1a96e95886b5" />
+<img width="400" alt="Screenshot 2025-04-09 at 12 36 17 PM" src="https://github.com/user-attachments/assets/92a5fb57-b3e0-4422-86e0-1a96e95886b5"/>
+
+
+##### Once inside the admin directory, open the urls.py file
+
+<img width="401" alt="Screenshot 2025-04-09 at 12 36 22 PM" src="https://github.com/user-attachments/assets/1c4dc701-0d49-4d60-a2b2-d47220beea85" />
+
