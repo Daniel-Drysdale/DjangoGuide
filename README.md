@@ -3,7 +3,7 @@ This a a guide on Django Workflow for the SSE Project, it contains a basic Djang
 
 
 
-##  <ins>Making a new view function <ins/>
+##  <ins>Where should View Functions be made?<ins/>
 
 ### Generally, you will be making a new view function in these 3 files:
 
@@ -30,3 +30,15 @@ This a a guide on Django Workflow for the SSE Project, it contains a basic Djang
 ##### All functions in this file are related to web services, such as:
 - Displaying Monitoring Data to the frontend website (Frontend -> Get Request to Backend)
 - sending a list of all VMs being monitored by a user (Frontend -> Get Request to Backend)
+
+
+
+##  <ins>Making a View Function<ins/>
+
+####  <ins>The General Layout for a View function for a RESTful API Backend is as follows:<ins>
+
+
+
+
+
+
