@@ -100,8 +100,27 @@ def DummyFunction(request:requests):
 ##### To map a function to a URL, add a URL using the following syntax:
 
 ```python 
-path('v2/api/Name-of-Endpoint/', Name_of_Service_File.Name_of_Function)
-
+path('v2/api/Name-of-Endpoint/', Name_of_Service_File.Name_of_Function),
 ```
 
+##Testing the new URL / Function:
 
+##### To test the new function, we're gonna locally start up a server of the Django application.
+##### To do this, we're gonna open a new terminal tab in our compiler:
+
+<img width="606" alt="Screenshot 2025-04-09 at 12 47 46 PM" src="https://github.com/user-attachments/assets/4b216dc9-544d-4c0b-9f27-de519fde39f3" />
+
+
+##### Ensure that you are in the correct directory (should be the base dir for the project).
+
+##### After which, type in `python manage.py runserver` in the terminal and run it!
+
+##### Assuming you have no errors, the terminal output should be as follows:
+
+<img width="722" alt="Screenshot 2025-04-09 at 12 50 52 PM" src="https://github.com/user-attachments/assets/120d817a-abcc-4b9f-bf86-3010445f6c4d" />
+
+##### Once it is running, go to http://127.0.0.1:8000/ to visit the local site
+
+##### To test the newly created URL, you will need to use a program like Postman if it is a POST request you are trying to test.
+
+## And that is the general Django workflow for creating new view functions and mapping them to URLS.
