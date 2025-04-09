@@ -39,11 +39,11 @@ This a guide on Django Workflow for the SSE Project, it contains a basic Django 
 
 
 
-`from django.http import HttpResponse
-from django.http import JsonResponse
-from django.views.decorators.csrf import csrf_exempt
-import requests
-import json`
+`from django.http import HttpResponse`
+`from django.http import JsonResponse`
+`from django.views.decorators.csrf import csrf_exempt`
+`import requests`
+`import json`
 
 `@csrf_exempt
 def DummyFunction(request:requests):
