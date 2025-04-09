@@ -1,5 +1,5 @@
 # <ins>A Guide to making new view functions </ins>
-This a a guide on Django Workflow for the SSE Project, it contains a basic Django workflow for this project.
+This a guide on Django Workflow for the SSE Project, it contains a basic Django workflow for this project.
 
 
 
@@ -37,6 +37,22 @@ This a a guide on Django Workflow for the SSE Project, it contains a basic Djang
 
 ####  The General Layout for a View function for a RESTful API Backend is as follows:
 
+
+
+`from django.http import HttpResponse
+from django.http import JsonResponse
+from django.views.decorators.csrf import csrf_exempt
+import requests
+import json`
+
+`@csrf_exempt
+def DummyFunction(request:requests):
+      try:
+          #Checking to ensure that the request is the one required for the method to function
+          if request.method == #"GET", "POST", "DELETE"
+          request_body = json.loads(request.body)	 
+      except:
+      return JsonResponse({"message":"Failed Post for New Endpoint"}, status = 405)`
 
 
 
