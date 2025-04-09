@@ -82,8 +82,8 @@ def DummyFunction(request:requests):
 ##  <ins>Linking a Function to a URL<ins/>![Uploading Screenshot 2025-04-09 at 12.37.43 PM.png…]()
 
 
-##### Now that you have a function ready to be called by the frontend, we need to map that function to a URL.
+#### Now that you have a function ready to be called by the frontend, we need to map that function to a URL.
 
-#### To that, we need to navigate to the <b>admin<b/> directory
+##### To that, we need to navigate to the <b>admin<b/> directory
 
 <img width="400" alt="Screenshot 2025-04-09 at 12 36 17 PM" src="https://github.com/user-attachments/assets/92a5fb57-b3e0-4422-86e0-1a96e95886b5" />
