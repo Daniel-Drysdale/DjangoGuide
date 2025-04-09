@@ -35,7 +35,7 @@ This a a guide on Django Workflow for the SSE Project, it contains a basic Djang
 
 ##  <ins>Making a View Function<ins/>
 
-####  <ins>The General Layout for a View function for a RESTful API Backend is as follows:<ins>
+####  The General Layout for a View function for a RESTful API Backend is as follows:
 
 
 
